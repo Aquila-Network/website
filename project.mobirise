@@ -46,23 +46,16 @@
     "uniqCompNum": 6,
     "versionPublish": "5.3.0",
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/aquilanetwork-128x128.png",
+    "favicon": false,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": {
-      "colorText": "#a7a7a7",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
-    },
     "screenshot": "screenshot.png",
-    "publishType": "local",
-    "publishPath": "file:///Users/jubinjose/Desktop",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "mbrsiteDomain": "iggw4o3kly"
+    "mbrsiteDomain": "xps6vstnsx",
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -525,11 +518,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">Aquila Network, a short story</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ava identifies herself as a polymath. Her interests range across science, technology, philosophy, and art. A millennial girl by birth, she's determined not to settle but to explore the realm of knowledge and wisdom. She has been a curious student of the Web for more than a decade. Anybody, without a doubt, will agree to this by looking at her bookmarks and knowledge repositories. Just like any other millennial, Ava has experienced firsthand how the Web grew over time. Even though she's happy with the technology toolset at her reserve, she started feeling small but growing frustration in discovering the right information.<br><br>Ava is now in her thirties. She enjoys hanging out with her peers of similar interest who she met online over the years. Even during the pandemic, thanks to the Web, she was able to meet her friends online. <br><br>\"Web is full of wonders..\" She would say occasionally.<br><br>One day she happened to meet El Nino from her friend circle. Nino is a web developer who occasionally writes articles reviewing different life hack tools. It didn't take much time for them to arrive at a discussion on the \"eventual information drain problem\" of the open Web. Nino called it \"Information Bubble\", which will continue growing as days go by. Ava recognized it immediately, she had no clue that it was a real problem. Now she knows the reason behind the growing fake information and biased opinion crisis. <br><br>\"Is there any solution to this?\" she asked.<br><br>\"There should be multiple solutions at different layers. I'm interested in solving one of them.\" Nino replied.<br><br>According to Nino, the fundamental layer of information discovery should be decentralized. Just simply censoring a library index could trigger a wave of damages. Centralized gatekeeping of Web indexes triggers secondary effects which consciously starve and eventually kill independent content creators. <br><br>Luckily, the Web already has a native, decentralized (but limited) content discovery mechanism - a super index - DNS. It already has proven the power and freedom a decentralized discovery layer could offer. What I'm proposing is a decentralized, native search layer - which will help to discover content specified by a context and anybody can host it anywhere. That will be awesome, right?<br><br>\"Yeah, super cool! What should I do?\" Ava asked with excitement.<br><br>Nino continued.<br>First of all. you can take a look at the technical paper and spec to make sure that the technology convinces you. Just remember, those are still under active improvement. Any suggestion you have on improving them is heartily welcome. Also, there are reference implementations in progress. You can test them and make pull requests if you think some change is necessary. You could also keep in touch with our team by giving your email id below. The team will let you know of the latest updates so that you can eventually join the collective efforts.<br> </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sqimYPkOfY",
+          "_anchor": "content5-5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-5"
+          "_params": {}
         },
         {
           "alias": false,
@@ -569,11 +562,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"form9\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Hey, keep me posted</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Form Subtitle\n            </h4>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n                <form action=\"wow.dr.dre@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler mx-auto\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thank you! Have a nice day.</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12\">\n                            <p mbr-theme-style=\"display-7\" mbr-if=\"showText\" class=\"mbr-text mbr-fonts-style align-center mb-4\">We will let you know on major milestones</p>\n                        </div>\n                        <div class=\"col-lg-4 col-md-12 col-sm-12 form-group\" data-for=\"name\">\n                            <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"name\" class=\"form-control\" value>\n                        </div>\n                        <div data-for=\"email\" class=\"col-lg-4 col-md-12 col-sm-12 form-group\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"email\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Submit</a></div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sqim3h6TSv",
+          "_anchor": "form9-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "form9-3"
+          "_params": {}
         },
         {
           "alias": false,
