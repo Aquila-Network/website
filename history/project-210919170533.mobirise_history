@@ -73,7 +73,7 @@
     "siteUrl": false,
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "mbrsiteDomain": "o2voenfoq0",
+    "mbrsiteDomain": "avgd6mitjl",
     "gdpr": false,
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-156570061-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-156570061-1');\n</script>",
     "cookiesAlert": false
