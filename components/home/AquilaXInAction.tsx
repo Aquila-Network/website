@@ -1,0 +1,78 @@
+import { useState } from 'react';
+import Image from 'next/image';
+import { IonIcon } from '@ionic/react';
+import { logoYoutube, closeOutline } from 'ionicons/icons'
+
+import aquilaVideoImg from '../../assets/aquila-video-img.jpeg';
+
+interface YouTubeVideoProps {
+	onClose: Function
+}
+
+const YouTubeVideo = (props: YouTubeVideoProps) => {
+
+	const handleClose = () => {
+		props.onClose();
+	}
+
+	return (
+		<div onClick={handleClose} className="fixed flex items-center bg-gray-800 bg-opacity-50 z-20 top-0 left-0 w-full h-screen m-auto">
+			<IonIcon className="absolute top-20 right-16 text-4xl cursor-pointer text-white" icon={closeOutline} />
+			<div className="w-4/5 m-auto h-4/5">
+				<iframe height="100%" width="100%" style={{width: '100%', height: '100%' }}  
+					src="https://www.youtube.com/embed/AdGZc1TO7z0?autoplay=1&mute=1">
+				</iframe>
+			</div>
+		</div>
+	)
+}
+
+
+const AquilaXInAction = () => {
+	const [showYoutubeVideo , setShowYoutubeVideo] = useState(false);
+	const handleOnClickVideoPlayBtn = () => {
+		setShowYoutubeVideo(true);	
+	}
+
+	const handleCloseVideoPlayer = () => {
+		setShowYoutubeVideo(false);
+	}
+
+	return (
+		<section className="container m-auto pb-14 pt-14 px-3">
+		<h2 className="text-center text-4xl mb-2 font-raleway font-bold">Aquila X in action</h2>
+		<p className="text-center mb-32 ">Aquila X is the gateway to a better search experience, powered by Aquila Network.</p>
+		<div className=" w-9/12 md:w-1/3 m-auto relative">
+			<Image src={aquilaVideoImg} alt="Aquila in Action Video" />
+			<IonIcon className="absolute cursor-pointer inset-1/2 text-6xl text-purple-500" icon={logoYoutube} onClick={handleOnClickVideoPlayBtn} />
+		</div>
+		<h2 className="text-3xl text-center mt-32 mb-4 font-raleway font-semibold ">Next Steps</h2>
+		<p className="text-center mb-10">Once you have generated the secret key, follow the simple steps below to get started.</p>
+		<ul>
+			<li className="flex mb-2">
+				<div className="mr-3">
+					<span className="block w-10 h-10 bg-purple-700 text-center rounded-full leading-10 text-white">1</span>
+				</div>
+				<p><b>Install AquilaX browser extension</b> User authentication and website bookmarking are managed from your browser. AquilaX browser extensions will help you with this. We currently support all Firefox and Chrome variants. Click to install for Firefox, click to install for Chrome, or build from source code.</p>
+			</li>
+			<li className="flex mb-2">
+				<div className="mr-3">
+				<span className="block w-10 h-10 bg-purple-700 text-center rounded-full leading-10 text-white">2</span>
+				</div>
+				<p><b>Add secret key to browser extension.</b> Once you have <a href="https://aquila.network/#form9-3">obtained the secret key</a> and installed the AquilaX add-on, click on AquilaX extension &#x3E; Edit Settings &#x3E; Paste your secret key &#x3E; Update. 
+				Visit your favorite website, click on &#x27;Bookmark&#x27; in the AquilaX browser extension to bookmark it.
+</p>
+			</li>
+			<li className="flex">
+				<div className="mr-3">
+					<span className="block w-10 h-10 bg-purple-700 text-center rounded-full leading-10 text-white">3</span>
+				</div>
+				<p><b>Visit</b> the <a href="https://x.aquila.network/explore.html">Aquila Network</a> page to explore your bookmark collection. </p>
+			</li>
+		</ul>
+		{showYoutubeVideo && <YouTubeVideo onClose={handleCloseVideoPlayer} />}
+	</section>
+	)
+}
+
+export default AquilaXInAction;
