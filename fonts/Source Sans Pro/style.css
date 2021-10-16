@@ -1,0 +1,84 @@
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/200.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/900.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/200italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/300italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/700italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Source Sans Pro';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///home/iamjbn/HDD/works/aquila_network/website/fonts/Source Sans Pro/900italic.ttf') format('truetype');
+}
