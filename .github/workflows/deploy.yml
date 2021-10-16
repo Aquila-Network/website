@@ -13,9 +13,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm install
-      - run: npm run build
-      - run: npm run export
+      - run: yarn install
+      - run: yarn build
+      - run: yarn export
       
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
