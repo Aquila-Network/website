@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 import aquilaControlInHand from '../../assets/aquila-control-in-hand.png';
 
@@ -8,7 +7,7 @@ const ControlBanner = () => {
 		<section className="container m-auto flex-col md:flex-row flex md:h-96 h-auto py-4 md:py-52 items-center text-center md:text-left"> 
 		<div className="w-full md:w-2/4">
 			<div className="w-9/12 m:w-4/5 m-auto">
-				<Image src={aquilaControlInHand}  alt="Aquila X Image"/>
+				<img src={aquilaControlInHand}  alt="Aquila X Image"/>
 			</div>
 		</div>
 		<div className="w-9/12 md:w-2/4 h-full items-center flex mt-8 md:mt-0">

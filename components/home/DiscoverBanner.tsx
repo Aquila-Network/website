@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import aquilaXExplore from '../../assets/aquila-x-explore.png';
 
 const DiscoverBanner = () => {
@@ -15,7 +13,7 @@ const DiscoverBanner = () => {
 			</div>
 			<div className="w-full md:w-2/4">
 				<div className="w-4/5 mx-auto">
-					<Image src={aquilaXExplore}  alt="Aquila X Image"/>
+					<img src={aquilaXExplore}  alt="Aquila X Image"/>
 				</div>
 			</div>
 		</section>
