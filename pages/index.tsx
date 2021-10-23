@@ -23,12 +23,11 @@ const Home: NextPage = () => {
     <Head>
       <title></title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
+      <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
     </Head>
    <Header />
    <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
     <Banner />
-   </ScrollAnimation>
-   <ScrollAnimation animateIn="fadeIn" animateOnce={true}  >
     <AquilaXBanner /> 
    </ScrollAnimation>
    <ScrollAnimation animateIn="fadeIn"  animateOnce={true}>
