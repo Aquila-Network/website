@@ -27,8 +27,6 @@ const Home: NextPage = () => {
    <Header />
    <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
     <Banner />
-   </ScrollAnimation>
-   <ScrollAnimation animateIn="fadeIn" animateOnce={true}  >
     <AquilaXBanner /> 
    </ScrollAnimation>
    <ScrollAnimation animateIn="fadeIn"  animateOnce={true}>
