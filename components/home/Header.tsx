@@ -42,7 +42,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <IonIcon className="text-xl md:hidden cursor-pointer" icon={menuOutline} onClick={handleMenuToggle} />
+      <span className="text-xl md:hidden cursor-pointer" onClick={handleMenuToggle}>
+        <IonIcon  icon={menuOutline} />
+      </span>
 			</div>
       <nav className={`md:hidden block  ${ !menuToggle ? 'hidden' : ''}`}>
         <ul className="flex justify-center py-3">

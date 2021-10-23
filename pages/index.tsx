@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Script from 'next/script';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import Banner from '../components/home/Banner';
@@ -21,7 +22,20 @@ const Home: NextPage = () => {
   return (
     <>
     <Head>
-      <title></title>
+      <title>Aquila Network | Manage, share and discover smart bookmarks online</title>
+      <meta name="title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
+      <meta name="description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." /> 
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://aquila.network/" />
+      <meta property="og:title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
+      <meta property="og:description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." />
+      <meta property="og:image" content="https://aquila.network/_next/static/images/aquila-x-1eebbe30f344ecb85b0328d907b762d0.png"></meta>
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://aquila.network/" />
+      <meta property="twitter:title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
+      <meta property="twitter:description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." />
+      <meta property="twitter:image" content="https://aquila.network/_next/static/images/aquila-x-1eebbe30f344ecb85b0328d907b762d0.png"></meta>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
       <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
     </Head>
