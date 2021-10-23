@@ -43,7 +43,9 @@ const AquilaXInAction = () => {
 		<p className="text-center mb-32 ">Aquila X is the gateway to a better search experience, powered by Aquila Network.</p>
 		<div className=" w-9/12 md:w-1/3 m-auto relative">
 			<img src={aquilaVideoImg} alt="Aquila in Action Video" />
-			<IonIcon className="absolute cursor-pointer inset-1/2 text-6xl text-purple-500" icon={logoYoutube} onClick={handleOnClickVideoPlayBtn} />
+			<span onClick={handleOnClickVideoPlayBtn}>
+				<IonIcon className="absolute cursor-pointer inset-1/2 text-6xl text-purple-500" icon={logoYoutube}  />
+			</span>
 		</div>
 		<h2 className="text-3xl text-center mt-32 mb-4 font-raleway font-semibold ">Next Steps</h2>
 		<p className="text-center mb-10">Once you have generated the secret key, follow the simple steps below to get started.</p>
