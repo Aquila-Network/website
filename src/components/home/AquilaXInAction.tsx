@@ -1,8 +1,9 @@
+import React from "react"
 import { useState } from 'react';
 import { IonIcon } from '@ionic/react';
 import { logoYoutube, closeOutline } from 'ionicons/icons'
 
-import aquilaVideoImg from '../../assets/aquila-video-img.jpeg';
+import aquilaVideoImg from '../../images/aquila-video-img.jpeg';
 
 interface YouTubeVideoProps {
 	onClose: Function

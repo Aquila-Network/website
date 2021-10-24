@@ -1,5 +1,6 @@
 
-import aquilaX from '../../assets/aquila-x.png';
+import React from "react"
+import aquilaX from '../../images/aquila-x.png';
 
 const AquilaXBanner = () => {
 	return (
