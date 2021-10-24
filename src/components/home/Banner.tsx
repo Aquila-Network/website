@@ -4,7 +4,7 @@ import aquilaBgLogo from '../../images/aquila-696x698.png';
 const Banner = () => {
 	return (
 		<section style={{height: "85vh"}}  className="mt-4 md:mt-3 px-4 font-raleway flex flex-col justify-center ">
-      <div className="mx-auto block w-6/12 md:w-96 mt-10">
+      <div className="mx-auto block w-6/12 md:w-96 mt-20">
         <img src={aquilaBgLogo} alt="Aquila Logo" />
       </div>
       <h3 className="text-center text-4xl font-bold mt-10 mb-3">Social bookmarking for polymaths.</h3>
