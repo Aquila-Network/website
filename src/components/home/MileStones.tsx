@@ -1,3 +1,4 @@
+import React from "react"
 import { IonIcon } from "@ionic/react";
 
 import { arrowDownOutline } from 'ionicons/icons';

@@ -1,4 +1,5 @@
-import aquilaBgLogo from '../../assets/aquila-696x698.png';
+import React from "react"
+import aquilaBgLogo from '../../images/aquila-696x698.png';
 
 const Banner = () => {
 	return (

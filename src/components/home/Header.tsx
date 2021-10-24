@@ -1,3 +1,4 @@
+import React from "react"
 import { IonIcon } from "@ionic/react";
 import { logoMedium, logoYoutube, mail, bulbOutline, logoGithub, menuOutline } from 'ionicons/icons';
 import { useState } from "react";
