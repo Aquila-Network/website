@@ -1,9 +1,9 @@
-import { FC } from 'react';
+import React, { FC } from "react"
 
-import blogOne from '../../assets/blog1.png';
-import blogTwo from '../../assets/blog2.jpeg';
-import blogThree from '../../assets/blog3.jpeg';
-import blogFour from '../../assets/blog4.jpeg';
+import blogOne from '../../images/blog1.png';
+import blogTwo from '../../images/blog2.jpeg';
+import blogThree from '../../images/blog3.jpeg';
+import blogFour from '../../images/blog4.jpeg';
 
 interface BlogItemProps {
   image: any;

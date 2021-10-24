@@ -1,3 +1,5 @@
+import React from 'react';
+
 const WhyAquilaNetwork = () => {
 	return (
 		<section className="bg-gray-50 py-20 px-4">

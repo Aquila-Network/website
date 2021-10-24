@@ -1,4 +1,5 @@
-import aquilaXExplore from '../../assets/aquila-x-explore.png';
+import React from "react"
+import aquilaXExplore from '../../images/aquila-x-explore.png';
 
 const DiscoverBanner = () => {
 	return (

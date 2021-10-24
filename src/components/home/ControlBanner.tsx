@@ -1,5 +1,5 @@
-
-import aquilaControlInHand from '../../assets/aquila-control-in-hand.png';
+import React from "react"
+import aquilaControlInHand from '../../images/aquila-control-in-hand.png';
 
 
 const ControlBanner = () => {

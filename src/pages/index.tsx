@@ -1,6 +1,5 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Script from 'next/script';
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import Banner from '../components/home/Banner';
@@ -18,10 +17,10 @@ import Header from '../components/home/Header'
 
 
 
-const Home: NextPage = () => {
+const Index = () => {
   return (
     <>
-    <Head>
+    <Helmet>
       <title>Aquila Network | Manage, share and discover smart bookmarks online</title>
       <meta name="title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
       <meta name="description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." /> 
@@ -38,7 +37,7 @@ const Home: NextPage = () => {
       <meta property="twitter:image" content="https://aquila.network/_next/static/images/aquila-x-1eebbe30f344ecb85b0328d907b762d0.png"></meta>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
       <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
-    </Head>
+    </Helmet>
    <Header />
    <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
     <Banner />
@@ -73,4 +72,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Index

@@ -1,3 +1,4 @@
+import React from "react"
 import { IonIcon } from "@ionic/react";
 
 import { globeOutline, layersOutline, happyOutline } from 'ionicons/icons'
