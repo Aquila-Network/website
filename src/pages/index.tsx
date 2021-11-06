@@ -14,6 +14,7 @@ import OurBlog from '../components/home/OurBlog'
 import Faq from '../components/home/Faq'
 import Footer from '../components/home/Footer'
 import Header from '../components/home/Header'
+import AquilaXImg from '../images/aquila-x.png';
 
 
 
@@ -28,13 +29,13 @@ const Index = () => {
       <meta property="og:url" content="https://aquila.network/" />
       <meta property="og:title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
       <meta property="og:description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." />
-      <meta property="og:image" content="https://aquila.network/_next/static/images/aquila-x-1eebbe30f344ecb85b0328d907b762d0.png"></meta>
+      <meta property="og:image" content={window.location.href.substring(0, window.location.href.length -1)+AquilaXImg}></meta>
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://aquila.network/" />
       <meta property="twitter:title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
       <meta property="twitter:description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." />
-      <meta property="twitter:image" content="https://aquila.network/_next/static/images/aquila-x-1eebbe30f344ecb85b0328d907b762d0.png"></meta>
+      <meta property="twitter:image" content={window.location.href.substring(0, window.location.href.length -1)+AquilaXImg}></meta>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
       <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
     </Helmet>
