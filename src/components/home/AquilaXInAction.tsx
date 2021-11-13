@@ -55,13 +55,13 @@ const AquilaXInAction = () => {
 				<div className="mr-3">
 					<span className="block w-10 h-10 bg-purple-700 text-center rounded-full leading-10 text-white">1</span>
 				</div>
-				<p><b>Install AquilaX browser extension</b> User authentication and website bookmarking are managed from your browser. AquilaX browser extensions will help you with this. We currently support all Firefox and Chrome variants. <a href="https://addons.mozilla.org/en-US/firefox/addon/aquilax/">Click to install for Firefox</a>, <a href="https://chrome.google.com/webstore/detail/aquilax/albdahjdcmldbcpjmbnbcbckgndaibnk">click to install for Chrome</a>, or <a href="https://github.com/Aquila-Network/AquilaX-browser-extension">build from source code</a>.</p>
+				<p><b>Install AquilaX browser extension</b> User authentication and website bookmarking are managed from your browser. AquilaX browser extensions will help you with this. We currently support all Firefox and Chrome variants. <a className="text-blue-600" href="https://addons.mozilla.org/en-US/firefox/addon/aquilax/">Click to install for Firefox</a>, <a className="text-blue-600" href="https://chrome.google.com/webstore/detail/aquilax/albdahjdcmldbcpjmbnbcbckgndaibnk">click to install for Chrome</a>, or <a className="text-blue-600" href="https://github.com/Aquila-Network/AquilaX-browser-extension">build from source code</a>.</p>
 			</li>
 			<li className="flex mb-2">
 				<div className="mr-3">
 				<span className="block w-10 h-10 bg-purple-700 text-center rounded-full leading-10 text-white">2</span>
 				</div>
-				<p><b>Add secret key to browser extension.</b> Once you have <a href="https://airtable.com/shrhvlKgL6otYCnlb">obtained the secret key</a> and installed the AquilaX add-on, click on AquilaX extension &#x3E; Edit Settings &#x3E; Paste your secret key &#x3E; Update. 
+				<p><b>Add secret key to browser extension.</b> Once you have <a className="text-blue-600" href="https://airtable.com/shrhvlKgL6otYCnlb">obtained the secret key</a> and installed the AquilaX add-on, click on AquilaX extension &#x3E; Edit Settings &#x3E; Paste your secret key &#x3E; Update. 
 				Visit your favorite website, click on &#x27;Bookmark&#x27; in the AquilaX browser extension to bookmark it.
 </p>
 			</li>
@@ -69,7 +69,7 @@ const AquilaXInAction = () => {
 				<div className="mr-3">
 					<span className="block w-10 h-10 bg-purple-700 text-center rounded-full leading-10 text-white">3</span>
 				</div>
-				<p><b>Finally, visit</b> the <a href="https://x.aquila.network">Aquila Network</a> page to explore your bookmark collection. </p>
+				<p><b>Finally, visit</b> the <a className="text-blue-600" href="https://x.aquila.network">Aquila Network</a> page to explore your bookmark collection. </p>
 			</li>
 		</ul>
 		{showYoutubeVideo && <YouTubeVideo onClose={handleCloseVideoPlayer} />}
