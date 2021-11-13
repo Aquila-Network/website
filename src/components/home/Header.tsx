@@ -17,12 +17,12 @@ const Header = () => {
       <nav className="md:block hidden">
         <ul className="flex justify-between">
           <li className="mr-5">
-            <a href="https://medium.com/a-mma" rel="nofollow" target="__blank" className="text-2xl">
+            <a href="https://medium.com/aquila-network" rel="nofollow" target="__blank" className="text-2xl">
               <IonIcon icon={logoMedium}/>
             </a>
           </li>
           <li className="mr-5">
-            <a href="https://www.youtube.com/channel/UCayvo6QXrel0Ii94ve48zBg" target="__blank" className="text-2xl">
+            <a href="https://www.youtube.com/channel/UCcghHPcdlh0V5TdQfLHjhOA" target="__blank" className="text-2xl">
               <IonIcon icon={logoYoutube} />
             </a>
           </li>
@@ -38,7 +38,7 @@ const Header = () => {
           </li>
           <li>
             <a href="https://github.com/Aquila-Network/awesome-aquila-network" className=" rounded-full text-white bg-gray-900 p-2 px-3">
-              Github <IonIcon icon={logoGithub} className="-mb-0.5" />
+              Open Source <IonIcon icon={logoGithub} className="-mb-0.5" />
             </a>
           </li>
         </ul>
