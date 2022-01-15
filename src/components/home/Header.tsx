@@ -16,7 +16,12 @@ const Header = () => {
       <div className="font-medium">AQUILA NETWORK</div>
       <nav className="md:block hidden">
         <ul className="flex justify-between">
-          <li className="mr-5">
+        <li className="mr-5">
+            <a href="https://docs.aquila.network" className="text-base underline">
+              Documentation
+            </a>
+          </li>
+          {/* <li className="mr-5">
             <a href="https://medium.com/aquila-network" rel="nofollow" target="__blank" className="text-2xl">
               <IonIcon icon={logoMedium}/>
             </a>
@@ -30,7 +35,7 @@ const Header = () => {
             <a href="mailto:aquilanetworkdev@gmail.com" target="__blank" className="text-2xl">
               <IonIcon icon={mail} />
             </a>
-          </li>
+          </li> */}
           <li className="mr-5">
             <a href="https://airtable.com/shrhvlKgL6otYCnlb" className="rounded-full bg-red-500  p-2 px-3 text-white">
               Join Beta <IonIcon icon={bulbOutline} className="-mb-0.5" />
