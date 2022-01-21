@@ -4,8 +4,8 @@ const WhyAquilaNetwork = () => {
 	return (
 		<section className="bg-gray-50 py-20 px-4">
       <div className="container m-auto">
-        <h2 className=" text-center text-3xl mb-10 font-raleway font-semibold">The Story of Aquila Network</h2>
-        <div className=" max-w-5xl m-auto">
+        <h2 className=" text-center text-3xl m-10 font-raleway font-semibold">Interested to read the <a className="text-blue-600" href="https://medium.com/@josejubin/the-brand-new-struggles-of-a-millennial-who-grew-up-with-the-open-web-the-story-of-aquila-network-4f85dbb8b332">Story of Aquila Network</a>?</h2>
+        {/* <div className=" max-w-5xl m-auto">
           <p className="mb-4">Ava identifies herself as a polymath. Her interests range across science, technology, philosophy, and art. A millennial girl by birth, she&#x27;s determined not to settle but to explore the realm of knowledge and wisdom. She has been a curious student of the Web for more than a decade. Anybody, without a doubt, will agree to this by looking at her bookmarks and knowledge repositories. Just like any other millennial, Ava has experienced firsthand how the Web grew over time. Even though she&#x27;s happy with the technology toolset at her reserve, she started feeling small but growing frustration in discovering the right information.</p>
           <p className="mb-4">Ava is now in her thirties. She enjoys hanging out with peers of similar interest whom she met online over the years. Even during the pandemic, thanks to the Web, she meets her friends online.</p>
           <p className="mb-4">&#x22;Web is full of wonders...&#x22; She would say occasionally.</p>
@@ -17,7 +17,7 @@ const WhyAquilaNetwork = () => {
           <p className="mb-4">&#x22;Yeah, super cool! What can I do?&#x22; Ava asked with excitement.</p>
           <p className="mb-4">Nino continued.</p>
           <p className="mb-4">First of all, you can take a look at the <a className="text-blue-600" href="https://github.com/Aquila-Network/whitepaper">technical paper</a> and <a className="text-blue-600" href="https://github.com/Aquila-Network/specs">specifications</a> to make sure that the technology convinces you. Just remember, those are still under active improvement. Any suggestion you have on improving them is heartily welcome. Also, there are <a className="text-blue-600" href="https://github.com/Aquila-Network/awesome-aquila-network#official-implementations">reference implementations</a> in progress. You can test them and make pull requests if you think of a necessary change. You could also <a className="text-blue-600" href="https://discord.gg/5YP7zHS">keep in touch with our team</a>. Our team will let you know of the latest updates so that you can eventually join the collective efforts.</p>
-        </div>
+        </div> */}
       </div>
     </section>
 	)

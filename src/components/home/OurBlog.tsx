@@ -15,10 +15,12 @@ interface BlogItemProps {
 const BlogItem: FC<BlogItemProps> = (props: BlogItemProps) => {
   return (
     <li className="w-9/12 md:w-1/2 m-2 mb-14 md:mb-0">
-      <div className="overflow-hidden h-40 mb-5 w-full">
-        <img src={props.image} alt="Blog Image" />
-      </div>
-      <a href={`${props.url}`}><h3 className="text-xl font-semibold mb-2">{props.title}</h3></a>
+      <a href={`${props.url}`}>
+        <div className="overflow-hidden h-40 mb-5 w-full">
+          <img src={props.image} alt="Blog Image" />
+        </div>
+        <h3 className="text-xl font-semibold mb-2">{props.title}</h3>
+      </a>
       <p>{props.content}</p>
     </li>
   );
