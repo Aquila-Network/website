@@ -40,8 +40,8 @@ const AquilaXInAction = () => {
 
 	return (
 		<section className="container m-auto pb-14 pt-14 px-3">
-		<h2 className="text-center text-4xl mb-2 font-raleway font-bold">Aquila X in action</h2>
-		<p className="text-center mb-32 ">Aquila X is the gateway to a better search experience, powered by Aquila Network.</p>
+		<h2 className="text-center text-4xl mb-2 font-raleway font-bold">Aquila in action</h2>
+		<p className="text-center mb-32 ">Experience the gateway to a better search experience, powered by Aquila Network.</p>
 		<div className=" w-9/12 md:w-1/3 m-auto relative">
 			<img src={aquilaVideoImg} alt="Aquila in Action Video" />
 			<span onClick={handleOnClickVideoPlayBtn}>
@@ -49,7 +49,7 @@ const AquilaXInAction = () => {
 			</span>
 		</div>
 		<h2 className="text-3xl text-center mt-32 mb-4 font-raleway font-semibold ">Next Steps</h2>
-		<p className="text-center mb-10">Once you have generated the secret key, follow the simple steps below to get started.</p>
+		<p className="text-center mb-10">Once you have <a className="text-blue-600" href="https://airtable.com/shrhvlKgL6otYCnlb">generated the secret key</a>, follow the simple steps below to get started.</p>
 		<ul>
 			<li className="flex mb-2">
 				<div className="mr-3">

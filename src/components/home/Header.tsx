@@ -16,11 +16,11 @@ const Header = () => {
       <div className="font-medium">AQUILA NETWORK</div>
       <nav className="md:block hidden">
         <ul className="flex justify-between">
-        <li className="mr-5">
+        {/* <li className="mr-5">
             <a href="https://docs.aquila.network" className="text-base underline">
               Documentation
             </a>
-          </li>
+          </li> */}
           {/* <li className="mr-5">
             <a href="https://medium.com/aquila-network" rel="nofollow" target="__blank" className="text-2xl">
               <IonIcon icon={logoMedium}/>
@@ -38,12 +38,12 @@ const Header = () => {
           </li> */}
           <li className="mr-5">
             <a href="https://airtable.com/shrhvlKgL6otYCnlb" className="rounded-full bg-red-500  p-2 px-3 text-white">
-              Join Beta <IonIcon icon={bulbOutline} className="-mb-0.5" />
+              Get Started <IonIcon icon={bulbOutline} className="-mb-0.5" />
             </a>
           </li>
           <li>
             <a href="https://github.com/Aquila-Network/awesome-aquila-network" className=" rounded-full text-white bg-gray-900 p-2 px-3">
-              Open Source <IonIcon icon={logoGithub} className="-mb-0.5" />
+              Github <IonIcon icon={logoGithub} className="-mb-0.5" />
             </a>
           </li>
         </ul>
@@ -73,7 +73,7 @@ const Header = () => {
         <ul className="flex justify-center py-2 mb-3">
           <li className="mr-5">
             <a href="https://airtable.com/shrhvlKgL6otYCnlb" className="rounded-full bg-red-500  p-2 px-3 text-white">
-              Join Beta <IonIcon icon={bulbOutline} className="-mb-0.5" />
+              Get Started <IonIcon icon={bulbOutline} className="-mb-0.5" />
             </a>
           </li>
           <li>

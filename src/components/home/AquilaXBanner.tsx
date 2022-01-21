@@ -9,7 +9,7 @@ const AquilaXBanner = () => {
         <img src={aquilaX}   alt="Aquila X Image"/>
       </div>
       <div className="w-3/4 m-auto h-full mt-10">
-        <h3 className="text-gray-800 border-t-2 border-b-2 pt-6 pb-6 border-gray-300 italic font-sans text-center md:text-2xl text-xl">Aquila X gives you a familiar interface to access content from Aquila Network. Organize your bookmarks with ease and share them with anyone.</h3>
+        <h3 className="text-gray-800 border-t-2 border-b-2 pt-6 pb-6 border-gray-300 italic font-sans text-center md:text-2xl text-xl">Aquila gives you a familiar interface to discover content.<br/>Easily organize your searchable index and share them with anyone.</h3>
       </div>
     </section>
 	);
