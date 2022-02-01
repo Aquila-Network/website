@@ -16,11 +16,21 @@ const Header = () => {
       <div className="font-medium">AQUILA NETWORK</div>
       <nav className="md:block hidden">
         <ul className="flex justify-between">
-        {/* <li className="mr-5">
+          <li className="mr-5">
+            <a href="https://x.aquila.network/explore.html" className="text-base underline">
+              Explore
+            </a>
+          </li>
+          <li className="mr-5">
             <a href="https://docs.aquila.network" className="text-base underline">
               Documentation
             </a>
-          </li> */}
+          </li>
+          <li className="mr-5">
+            <a href="https://blog.aquila.network" className="text-base underline">
+              Blog
+            </a>
+          </li>
           {/* <li className="mr-5">
             <a href="https://medium.com/aquila-network" rel="nofollow" target="__blank" className="text-2xl">
               <IonIcon icon={logoMedium}/>
@@ -36,7 +46,7 @@ const Header = () => {
               <IonIcon icon={mail} />
             </a>
           </li> */}
-          <li className="mr-5">
+          <li className="ml-5 mr-5">
             <a href="https://airtable.com/shrhvlKgL6otYCnlb" className="rounded-full bg-red-500  p-2 px-3 text-white">
               Get Started <IonIcon icon={bulbOutline} className="-mb-0.5" />
             </a>
@@ -53,7 +63,7 @@ const Header = () => {
       </span>
 			</div>
       <nav className={`md:hidden block  ${ !menuToggle ? 'hidden' : ''}`}>
-        <ul className="flex justify-center py-3">
+        {/* <ul className="flex justify-center py-3">
           <li className="mr-5">
             <a href="https://medium.com/a-mma" rel="nofollow" target="__blank" className="text-2xl">
               <IonIcon icon={logoMedium}/>
@@ -69,7 +79,7 @@ const Header = () => {
               <IonIcon icon={mail} />
             </a>
           </li>
-        </ul>
+        </ul> */}
         <ul className="flex justify-center py-2 mb-3">
           <li className="mr-5">
             <a href="https://airtable.com/shrhvlKgL6otYCnlb" className="rounded-full bg-red-500  p-2 px-3 text-white">
