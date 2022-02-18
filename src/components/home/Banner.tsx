@@ -8,9 +8,9 @@ const Banner = () => {
         <img className="h-48" src={aquilaBgLogo} alt="Aquila Logo" />
       </div>
       <div className="flex flex-col justify-center">
-        <h3 className="text-center text-4xl font-bold mt-10 mb-10">Search-first hub for your bookmarks</h3>
-        <p className="text-center font-bold mb-1">Liberate those powerful bookmarks that you keep under the mattress 🤷</p>
-        <p className="text-center text-sm">Allow the entire world to discover your favorite blogs and newsletters. It also works with paywall-protected websites.</p>
+        <h3 className="text-center text-4xl font-bold mt-10 mb-1">Search-first hub for your bookmarks</h3>
+        <p className="text-center font-bold mb-5">Liberate those powerful bookmarks you are keeping under the mattress 🤷</p>
+        <p className="text-center text-sm">Aquila Network allows the entire world to discover your favorite blogs and newsletters.<br/> Spread new ideas, show what you are standing for. Works with paywall-protected websites.</p>
         <div className="text-center mt-10">
           <a href="https://x.aquila.network/explore.html" target="_blank" className="bg-white p-2 mr-4  text-blue-600 underline" rel="noreferrer">Explore</a>
           <a href="https://airtable.com/shrhvlKgL6otYCnlb" target="__blank" className="bg-red-500 p-2 rounded-full px-4 text-white">Get Started</a>
