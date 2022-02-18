@@ -4,7 +4,7 @@ import aquilaControlInHand from '../../images/aquila-control-in-hand.png';
 
 const ControlBanner = () => {
 	return (
-		<section className="container m-auto flex-col md:flex-row flex md:h-96 h-auto py-4 md:py-52 items-center text-center md:text-left"> 
+		<section className="font-raleway container m-auto flex-col md:flex-row flex md:h-96 h-auto py-4 md:py-52 items-center text-center md:text-left"> 
 		<div className="w-full md:w-2/4">
 			<div className="w-9/12 m:w-4/5 m-auto">
 				<img src={aquilaControlInHand}  alt="Aquila X Image"/>

@@ -54,7 +54,7 @@ const OurBlog = () => {
     }
   ];
 	return (
-	<section className="container m-auto">
+	<section className="font-raleway container m-auto">
       <h2 className="text-center text-3xl font-semibold font-raleway">Our Blog</h2>
       <p className="text-center mb-20">Read recent blog posts</p>
       <ul className="flex flex-col items-center md:flex-row">

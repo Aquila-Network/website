@@ -20,7 +20,7 @@ const YouTubeVideo = (props: YouTubeVideoProps) => {
 			<IonIcon className="absolute top-20 right-16 text-4xl cursor-pointer text-white" icon={closeOutline} />
 			<div className="w-4/5 m-auto h-4/5">
 				<iframe height="100%" width="100%" style={{width: '100%', height: '100%' }}  
-					src="https://www.youtube.com/embed/AdGZc1TO7z0?autoplay=1&mute=1">
+					src="https://www.youtube.com/embed/_Huv37cYrZY?version=3&vq=hd720&autoplay=1&mute=1">
 				</iframe>
 			</div>
 		</div>
@@ -39,7 +39,7 @@ const AquilaXInAction = () => {
 	}
 
 	return (
-		<section className="container m-auto pb-14 pt-14 px-3">
+		<section className="container m-auto pb-14 pt-14 px-3 font-raleway">
 		<h2 className="text-center text-4xl mb-2 font-raleway font-bold">Aquila in action</h2>
 		<p className="text-center mb-32 ">Experience the gateway to a better search experience, powered by Aquila Network.</p>
 		<div className=" w-9/12 md:w-1/3 m-auto relative">

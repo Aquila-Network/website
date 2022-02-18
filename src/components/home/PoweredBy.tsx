@@ -5,7 +5,7 @@ import { globeOutline, layersOutline, happyOutline } from 'ionicons/icons'
 
 const PoweredBy = () => {
 	return (
-		<section className="container m-auto pt-14 pb-14 px-3">
+		<section className="font-raleway container m-auto pt-14 pb-14 px-3">
 				<h2 className="text-3xl font-semibold text-center mb-5 font-raleway ">Powered by Aquila Network Protocol</h2>
 				<p className="text-center mb-20 max-w-screen-sm m-auto">Aquila Network is a set of open protocols to build a decentralized search engine.
 	Please read the <a className="text-blue-600" href="https://github.com/Aquila-Network/specs">technical specifications</a> to learn more in detail.</p>
