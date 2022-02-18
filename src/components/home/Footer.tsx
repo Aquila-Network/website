@@ -4,7 +4,7 @@ import { logoGithub, logoMedium, logoYoutube } from 'ionicons/icons';
 
 const Footer = () => {
 	return (
-	<section className="bg-gray-800 text-white py-10">
+	<section className="font-raleway bg-gray-800 text-white py-10">
       <div className="container">
         <ul className="flex justify-center md:float-right ">
           <li className="mr-3 text-base underline">

@@ -51,7 +51,7 @@ const Faq = () => {
     }
   ];
 	return (
-	<section className="py-16 px-4">
+	<section className="font-raleway py-16 px-4">
       <h2 className="text-3xl font-semibold text-center mb-10 font-raleway">FAQ</h2>
       <ul className="max-w-screen-md m-auto">
         {faqs.map((item, i) => <FaqItem key={i} faq={item} />)}

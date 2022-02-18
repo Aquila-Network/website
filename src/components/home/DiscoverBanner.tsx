@@ -3,7 +3,7 @@ import aquilaXExplore from '../../images/aquila-x-explore.png';
 
 const DiscoverBanner = () => {
 	return (
-		<section className="container m-auto flex flex-col md:flex-row items-center h-full md:h-96 py-8 md:py-52 px-3 text-center md:text-left"> 
+		<section className="font-raleway container m-auto flex flex-col md:flex-row items-center h-full md:h-96 py-8 md:py-52 px-3 text-center md:text-left"> 
 			<div className="w-full md:w-2/4 h-full items-center flex mb-8 md:mb-0">
 				<div>
 				<h3 className="text-2xl font-raleway mb-5 font-semibold">Discover new topics and people.!</h3>

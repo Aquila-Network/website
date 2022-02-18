@@ -11,9 +11,9 @@ const Header = () => {
   }
 
 	return (
-<header className="fixed top-0 left-0 w-full bg-white z-10 px-3">
+<header className="font-raleway fixed top-0 left-0 w-full bg-white z-10 px-3">
 		<div className="flex items-center justify-between h-20 container m-auto  ">
-      <div className="font-medium">AQUILA NETWORK</div>
+      <div className="font-bold">AQUILA NETWORK</div>
       <nav className="md:block hidden">
         <ul className="flex justify-between">
           <li className="mr-5">

@@ -5,7 +5,7 @@ import { arrowDownOutline } from 'ionicons/icons';
 
 const MileStones = () => {
 	return (
-		<section className="container m-auto py-20 ">
+		<section className="font-raleway container m-auto py-20 ">
       <div className="max-w-5xl m-auto text-center mb-12">
         <h2 className="text-3xl mb-10 font-raleway font-semibold">We’ve gone through some important milestones that helped us reach you here, take look below to see them.</h2>
         <p>Aquila Network is an open protocol to implement a decentralized information discovery layer. Anybody can participate with their own protocol implementations without any restrictions. Aquila Network team will work on the core protocol, reference implementations for non technical users, and a few applications on top of the fundamental protocol with ease of use and user experience in mind.</p>

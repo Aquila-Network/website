@@ -49,6 +49,7 @@ const Index = () => {
       <meta property="twitter:image" content={site.siteMetadata.siteUrl+AquilaXImg}></meta>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
       <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"></link>
     </Helmet>
    <Header />
    <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
