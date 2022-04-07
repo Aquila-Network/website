@@ -28,7 +28,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p className=" clear-both text-center">© Copyright 2021 Aquila Network.</p>
+        <p className=" clear-both text-center">Copyright © 2022 - All right reserved by Aquila Network</p>
       </div>
     </section>
 	)

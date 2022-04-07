@@ -17,7 +17,7 @@ const Header = () => {
       <nav className="md:block hidden">
         <ul className="flex justify-between">
           <li className="mr-5">
-            <a href="https://x.aquila.network/explore.html" className="text-base underline">
+            <a href="https://x.aquila.network/explore" className="text-base underline">
               Explore
             </a>
           </li>
