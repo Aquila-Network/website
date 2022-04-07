@@ -71,15 +71,15 @@ const Index = () => {
    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <WhyAquilaNetwork />
    </ScrollAnimation>
-   <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+   {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <MileStones />  
-   </ScrollAnimation>
-   <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+   </ScrollAnimation> */}
+   {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <OurBlog /> 
-   </ScrollAnimation>
-   <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-   <Faq />
-   </ScrollAnimation>
+   </ScrollAnimation> */}
+   {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
+   {/* <Faq /> */}
+   {/* </ScrollAnimation> */}
    <Footer /> 
     </>
   )
