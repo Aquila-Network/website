@@ -21,11 +21,11 @@ const Header = () => {
               Explore
             </a>
           </li>
-          <li className="mr-5">
+          {/* <li className="mr-5">
             <a href="https://docs.aquila.network" className="text-base underline">
               Documentation
             </a>
-          </li>
+          </li> */}
           <li className="mr-5">
             <a href="https://blog.aquila.network" className="text-base underline">
               Blog

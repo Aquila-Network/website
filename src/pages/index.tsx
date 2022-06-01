@@ -33,19 +33,19 @@ const Index = () => {
   return (
     <>
     <Helmet>
-      <title>Aquila Network | Manage, share and discover smart bookmarks online</title>
-      <meta name="title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
-      <meta name="description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." /> 
+      <title>Aquila Network | Human-curated search engine</title>
+      <meta name="title" content="Aquila Network | Human-curated search engine" />
+      <meta name="description" content="Aquila Network allows you to build a curated list of websites. Spread new ideas, build a fanbase. Works with paywall-protected websites." /> 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://aquila.network/" />
-      <meta property="og:title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
-      <meta property="og:description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." />
+      <meta property="og:title" content="Aquila Network | Human-curated search engine" />
+      <meta property="og:description" content="Aquila Network allows you to build a curated list of websites. Spread new ideas, build a fanbase. Works with paywall-protected websites." />
       <meta property="og:image" content={site.siteMetadata.siteUrl+AquilaXImg}></meta>
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://aquila.network/" />
-      <meta property="twitter:title" content="Aquila Network | Manage, share and discover smart bookmarks online" />
-      <meta property="twitter:description" content="Aquila Network is a search-first hub for bookmarks. Create and search your bookmarks by their content. It's Open Sourced for trust, ensuring privacy by design." />
+      <meta property="twitter:title" content="Aquila Network | Human-curated search engine" />
+      <meta property="twitter:description" content="Aquila Network allows you to build a curated list of websites. Spread new ideas, build a fanbase. Works with paywall-protected websites." />
       <meta property="twitter:image" content={site.siteMetadata.siteUrl+AquilaXImg}></meta>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
       <link rel="shortcut icon" type="image/png" href="./favicon.png"/>

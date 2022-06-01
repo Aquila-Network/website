@@ -7,11 +7,11 @@ const Footer = () => {
 	<section className="font-raleway bg-gray-800 text-white py-10">
       <div className="container">
         <ul className="flex justify-center md:float-right ">
-          <li className="mr-3 text-base underline">
+          {/* <li className="mr-3 text-base underline">
             <a href="https://docs.aquila.network" target="_blank" rel="noreferrer">
               Documentation
             </a>
-          </li>
+          </li> */}
           <li className="mr-3">
             <a href="https://github.com/Aquila-Network/awesome-aquila-network" target="_blank" rel="noreferrer">
               <IonIcon className="text-3xl" icon={logoGithub} />
