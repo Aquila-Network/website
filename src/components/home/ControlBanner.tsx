@@ -13,7 +13,7 @@ const ControlBanner = () => {
 		<div className="w-9/12 md:w-2/4 h-full items-center flex mt-8 md:mt-0">
 			<div>
 			<h3 className="text-2xl mb-5 font-semibold font-raleway ">You’ve got all the control.</h3>
-			<p className="text-gray-800 font-light text-xl mb-5">We’re not interested in your data. But don’t just take our word for it. We’d love you not to trust us blindly and instead verify our tools, pixel by pixel.</p>
+			<p className="text-gray-800 font-light text-xl mb-5">You're ready to go once you've installed a browser extension. <br/>We're not interested in your personal information. Source code is available for public scrutiny.</p>
 			{/* <p className="text-gray-800 font-light text-xl mb-3">Your login data strictly remains on your browser. You can install the AquilaX addon and provide it with your secret key. </p> */}
 			{/* <p className="text-gray-800 font-light text-xl">Skeptical about a pre-built addon? You are welcome to download our open source code, verify it and build addon yourself. </p> */}
 			</div>
