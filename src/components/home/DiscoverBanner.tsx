@@ -9,7 +9,7 @@ const DiscoverBanner = () => {
 				<h3 className="text-2xl font-raleway mb-5 font-semibold">Discover new topics and people.!</h3>
 				{/* <p className="text-gray-800 font-light text-xl mb-5">Aquila X gives you a familiar interface to access content from Aquila Network. */}
 			{/* Easy organize your bookmarks and share with anyone.</p> */}
-				<p className="text-gray-800 font-light text-xl">Subscribe to your favorite creators to get notified. Maintain a pool of experts and build a search engine out of it.</p>
+				<p className="text-gray-800 font-light text-xl">Become a fan of your favorite curators. Maintain a pool of specialists and create a search engine out of it.</p>
 				</div>
 			</div>
 			<div className="w-full md:w-2/4">
