@@ -1,10 +1,10 @@
 import React from 'react';
 
 const WhyAquilaNetwork = () => {
-	return (
-		<section className="bg-gray-50 py-20 px-4">
+  return (
+    <section className="bg-gray-50 py-20 px-4">
       <div className="container m-auto">
-        <h2 className=" text-center text-3xl m-10 font-raleway font-semibold">Interested to read the <a className="text-blue-600" href="https://medium.com/@josejubin/the-brand-new-struggles-of-a-millennial-who-grew-up-with-the-open-web-the-story-of-aquila-network-4f85dbb8b332">Story of Aquila Network</a>?</h2>
+        <h2 className="text-gray-800 text-center text-3xl m-10 font-raleway font-semibold">Interested to read the <a className="text-green-600 pr-1" href="https://medium.com/@josejubin/the-brand-new-struggles-of-a-millennial-who-grew-up-with-the-open-web-the-story-of-aquila-network-4f85dbb8b332">story of Aquila Network</a>?</h2>
         {/* <div className=" max-w-5xl m-auto">
           <p className="mb-4">Ava identifies herself as a polymath. Her interests range across science, technology, philosophy, and art. A millennial girl by birth, she&#x27;s determined not to settle but to explore the realm of knowledge and wisdom. She has been a curious student of the Web for more than a decade. Anybody, without a doubt, will agree to this by looking at her bookmarks and knowledge repositories. Just like any other millennial, Ava has experienced firsthand how the Web grew over time. Even though she&#x27;s happy with the technology toolset at her reserve, she started feeling small but growing frustration in discovering the right information.</p>
           <p className="mb-4">Ava is now in her thirties. She enjoys hanging out with peers of similar interest whom she met online over the years. Even during the pandemic, thanks to the Web, she meets her friends online.</p>
@@ -20,7 +20,7 @@ const WhyAquilaNetwork = () => {
         </div> */}
       </div>
     </section>
-	)
+  )
 }
 
 export default WhyAquilaNetwork;

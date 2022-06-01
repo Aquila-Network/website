@@ -62,9 +62,9 @@ const Index = () => {
    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
     <ControlBanner />
    </ScrollAnimation>
-   <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+   {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <AquilaXInAction />
-   </ScrollAnimation>
+   </ScrollAnimation> */}
    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <PoweredBy />
    </ScrollAnimation>

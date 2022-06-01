@@ -4,9 +4,10 @@ import { logoGithub, logoMedium, logoYoutube } from 'ionicons/icons';
 
 const Footer = () => {
 	return (
-	<section className="font-raleway bg-gray-800 text-white py-10">
-      <div className="container">
-        <ul className="flex justify-center md:float-right ">
+	<section className="pt-10 pb-24 font-raleway bg-gray-800 text-white">
+      {/* <div className="container"> */}
+        <p className="text-sm text-center">Copyright © 2022 - All right reserved by Aquila Network</p>
+        <ul className="mt-10 flex justify-center">
           {/* <li className="mr-3 text-base underline">
             <a href="https://docs.aquila.network" target="_blank" rel="noreferrer">
               Documentation
@@ -28,8 +29,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p className=" clear-both text-center">Copyright © 2022 - All right reserved by Aquila Network</p>
-      </div>
+      {/* </div> */}
     </section>
 	)
 }
