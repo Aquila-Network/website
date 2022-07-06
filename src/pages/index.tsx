@@ -65,9 +65,9 @@ const Index = () => {
    {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <AquilaXInAction />
    </ScrollAnimation> */}
-   <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+   {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <PoweredBy />
-   </ScrollAnimation>
+   </ScrollAnimation> */}
    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
    <WhyAquilaNetwork />
    </ScrollAnimation>
