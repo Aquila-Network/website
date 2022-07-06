@@ -36,7 +36,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/Aquila-Network/awesome-aquila-network" className="text-base">
+            <a href="https://github.com/Aquila-Network" className="text-base">
               Github
             </a>
           </li>
