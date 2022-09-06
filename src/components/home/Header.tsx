@@ -20,11 +20,11 @@ const Header = () => {
       </div>
       <nav className="md:block hidden">
         <ul className="flex justify-between text-gray-800">
-          <li className="mr-5">
+          {/* <li className="mr-5">
             <a href="https://x.aquila.network/explore" className="text-base">
               Explore
             </a>
-          </li>
+          </li> */}
           <li className="mr-5">
             <a href="https://x.aquila.network/extensions.html" className="text-base">
               Download
@@ -35,7 +35,7 @@ const Header = () => {
               Blog
             </a>
           </li>
-          <li>
+          <li className="mr-5">
             <a href="https://github.com/Aquila-Network" className="text-base">
               Github
             </a>
@@ -55,10 +55,13 @@ const Header = () => {
               <IonIcon icon={mail} />
             </a>
           </li> */}
-          <li className="ml-5 mr-5">
+          {/* <li className="ml-5 mr-5">
             <a href="https://airtable.com/shrhvlKgL6otYCnlb" className="rounded-full bg-green-500  p-2 px-4 text-white font-bold duration-300 hover:bg-green-600">
               Get Started
             </a>
+          </li> */}
+          <li className="mr-5">
+            <a href="https://x.aquila.network/explore" target="_blank" className="text-center text-green-600 font-bold" rel="noreferrer">Explore ➜</a>
           </li>
         </ul>
       </nav>
@@ -85,15 +88,18 @@ const Header = () => {
           </li>
         </ul> */}
         <ul className="flex justify-center py-2 mb-3">
-          <li className="mr-5">
+          {/* <li className="mr-5">
             <a href="https://airtable.com/shrhvlKgL6otYCnlb" className="rounded-full bg-red-500  p-2 px-3 text-white">
               Get Started <IonIcon icon={bulbOutline} className="-mb-0.5" />
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="https://github.com/Aquila-Network/awesome-aquila-network" className=" rounded-full text-white bg-gray-900 p-2 px-3">
               Github <IonIcon icon={logoGithub} className="-mb-0.5" />
             </a>
+          </li>
+          <li>
+            <a href="https://x.aquila.network/explore" target="_blank" className="text-center p-2  px-3 text-green-600 font-bold" rel="noreferrer">Explore ➜</a>
           </li>
         </ul>
       </nav>
